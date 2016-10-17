@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <LINK REL=StyleSheet HREF="quiz.css" TYPE="text/css">
+        <meta charset="utf-8">
+        <title>Assignment 1</title>
+        <!--
+        <script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+          <script type = "text/javascript" src = "quiz.js"></script>
+        -->
+    </head>
+    
+    <body>
+
+    <header>
+      <ul>
+        <li><a class="img">CSC Quiz</a><li>
+        <!--<li><nav class ="menu"><li> -->
+        <li><a class ="reset" href="javascript:history.go(0)">Click to Reset Quiz</a><li>
+        <li><a id="score">Score: 0</a><li>
+      </ul>
+    </header>
+
+    <div id="quiz">
+
+      <!-- Question 1 -->
+      <div class= "section question1">
+        <br><b>Question 1: The first electronic computer in Canada was housed in the Computer Science Department at the U of T.  What was its name?</b></div>
+      
+        <input TYPE="radio" NAME="HAL" VALUE="4" class="question 1.1">HAL 9000<br>
+        <div class="ans 1.1">"Incorrect: The HAL 9000 is a fictional computer from Arthur C. Clarke's 2001: A Space Odyssey."</div>
+
+        <input TYPE="radio" NAME="FERUT" VALUE="1" class="question 1.2">FERUT<br>
+        <div class="ans 1.2">"Correct: The machine arrived in Canada on April 30, 1952.  Named FERUT (FERranti U of T), it was used to compute changes in water levels due to the opening of the St. Lawrence Seaway."</div>
+
+        <input TYPE="radio" NAME="ILLIAC" VALUE="2" class="question 1.3">ILLIAC<br>
+        <div class="ans 1.3">"Incorrect: The ILLIAC was built at the University of Illinois. It was the first von Neumann architecture computer built and owned by an American university. It was put into service on September 22, 1952."</div>
+
+        <input TYPE="radio" NAME="UNIVAC" VALUE="3" class="question 1.4">UNIVAC<br>
+        <div class="ans 1.4">"Incorrect:The UNIVAC was the first commericial computer produced in the United States, and was designed by J. Presper Eckert and John Mauchly.  The United States Census Department received delivery of the first UNIVAC in May 1952."</div>
+
+        <button id="seeAll">Display all explanations</button>
+      </div>
+      <hr>
+
+      <!-- Question 2 -->
+      <div class= "question2">
+        <br><b>Question 2: University of Toronto Professors Kelly Gotlieb and Pat Hume are credited in the Oxford English Dictionary with early published use of more than 10 words used in the vocabulary of computing from their 1958 book, "High-speed Data Processing".  Which <font color="red">two</font> of the following are *not* words for which they are quoted in the OED?</b></div>
+
+        <hr>
+
+
+      <!-- Question 3 -->
+
+      <div class= "section question3">
+        <br><b>Question 3: Match the CS Professor with his or her claim to fame:</b><br>Click on the description boxes, on the right. When you click on a box it moves it <b>down</b> switching it with the box that is below it. You can move a box <b>up</b> by clicking on the box above it. The last box will switch with the first box!<br></div>
+        
+
+        <hr>
+
+
+      <!-- Question 4 -->
+      <div class= "section question4">
+        <br><b>Question 4:Arrange by year of invention from oldest to newest:</b><br> When you click on a box it moves it <b>down</b> switching it with the box that is below it. You can move a box <b>up</b> by clicking on the box above it. The last box will switch with the first box!</div>
+        
+        <hr>
+
+
+
+
+    <script src="quiz.js"></script>
+    </body>
+</html>

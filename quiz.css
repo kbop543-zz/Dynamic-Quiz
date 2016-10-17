@@ -1,0 +1,148 @@
+html {
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
+ * { 
+	width: 100%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8E4FD7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    z-index:1000;
+    border: 5px solid #7028C4  ;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #7028C4   ;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+#quiz{
+    padding-top: 180px;
+
+}
+
+
+
+.question1 {
+    padding-top: 100px;
+    display: inline;
+
+    
+}
+
+.section {
+    margin: 4px 2px;
+    text-align: center;
+}
+
+
+
+
+.ans {
+    
+    display: none;
+}
+
+#seeAll{
+    display: none;
+    width: 10%;
+}
+
+.submit{
+    width: 10%;
+}
+
+
+
+.btn{
+
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:65%;
+    height: 40px;
+}
+
+.yearBtn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:30%;
+    height: 40px;
+}
+
+.teacher{
+    background-color: #00CED1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:20%;
+    height: 40px;
+
+}
+
+.description{
+    background-color: #00CED1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:70%;
+    height: 40px;
+
+}
+
+
+
+
